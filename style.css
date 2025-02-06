@@ -25,7 +25,7 @@ body {
 }
 
 .leaves {
-    width: 45rem;
+    width: 47rem;
     height: 762px;
 }
 
@@ -35,6 +35,10 @@ body {
     gap: 1rem;
     background-color: var(--gray);
     padding: 8rem 8rem 2rem 2rem; /* top right bottom left */
+}
+
+.form {
+    padding: 1rem 2rem;
 }
 
 .footer {
