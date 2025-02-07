@@ -20,14 +20,32 @@
 
 body {
     display: flex;
-    width: 1075px;
-    height: 762px;
-    margin: auto;
+    width: 1440px;
+    height: 1024px;
+    margin: 99px auto;
 }
 
-.leaves {
-    width: 47rem;
-    height: 762px;
+.image {
+    width: 40rem;
+    background: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+}
+
+.opac {
+    display: flex;
+    background-color: rgb(0 0 0 /40%);
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 13rem;
+}
+
+.image img {
+    width: 80px;
+}
+
+.image .odin{
+    font-family: aweston, sans-serif;
+    color: white;
+    font-size: 5rem;
 }
 
 .main {
