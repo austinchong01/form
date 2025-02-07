@@ -10,8 +10,8 @@
 
 * {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 475;
 }
 
 .italic {
@@ -26,26 +26,34 @@ body {
 }
 
 .image {
-    width: 40rem;
-    background: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 1200px;
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .opac {
     display: flex;
     background-color: rgb(0 0 0 /40%);
     justify-content: center;
-    padding: 0.5rem;
-    margin-top: 13rem;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 210px;
 }
 
 .image img {
-    width: 80px;
+    width: 95px;
 }
 
 .image .odin{
     font-family: aweston, sans-serif;
     color: white;
-    font-size: 5rem;
+    font-size: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
@@ -53,11 +61,11 @@ body {
     flex-direction: column;
     gap: 1rem;
     background-color: var(--gray);
-    padding: 8rem 8rem 2rem 2rem; /* top right bottom left */
+    padding: 150px 125px 50px 50px; /* top right bottom left */
 }
 
 .form {
-    padding: 1rem 2rem;
+    padding: 25px 50px;
     background-color: white;
 }
 
@@ -65,4 +73,5 @@ body {
     background-color: var(--gray);
     padding-top: 2rem;
     padding-left: 2rem;
+    flex: 1;
 }
