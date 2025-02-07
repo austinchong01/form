@@ -64,14 +64,62 @@ body {
     padding: 150px 125px 50px 50px; /* top right bottom left */
 }
 
-.form {
+form {
     padding: 25px 50px;
     background-color: white;
 }
 
+form fieldset{
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+form label {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+form fieldset div{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+}
+
+form fieldset div input {
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+}
+
 .footer {
     background-color: var(--gray);
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding-top: 30px;
+    padding-left: 50px;
     flex: 1;
+}
+
+button {
+    background-color: #596D48;
+    border-style: none;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.footer p, .footer a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #596D48;
 }
